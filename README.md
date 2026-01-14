@@ -25,4 +25,27 @@ FluxMedia v2.1 es una herramienta moderna y visual diseñada para analizar y des
 - 🧊 Animaciones suaves en botones y una interfaz limpia para uso continuo.
 - ✅ Pensado para descargar, reiniciar y seguir trabajando sin complicaciones.
 
+🧩 Requisitos y complementos (para que funcione correctamente)
+- ✅ Python 3.10+ (recomendado)
+- ✅ Dependencias (instalar con pip):
+  - customtkinter
+  - yt-dlp
+  - pillow
+  - colorama
+
+📦 Instalación rápida (pip)
+- Ejecuta en CMD/PowerShell dentro de la carpeta del proyecto:
+  python -m pip install -U customtkinter yt-dlp pillow colorama
+
+🎛 Requisito adicional (muy importante): FFmpeg
+- Debes tener estos archivos:
+  - ffmpeg.exe
+  - ffprobe.exe
+
+- Colócalos dentro de esta carpeta (al lado del programa):
+  FG - [1]/
+    ffmpeg.exe
+    ffprobe.exe.
+
 👤 Creador: Charun OT.
+
